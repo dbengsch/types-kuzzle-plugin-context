@@ -4,11 +4,11 @@
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // Provides type definition for the plugin context of Kuzzle <http://docs.kuzzle.io/plugin-reference/#the-plugin-context>
 
-/// <reference types="kuzzle-common-objects" />
+/// <reference types="types-kuzzle-common-objects" />
 /// <reference types="passport" />
 
 import passport = require('passport')
-import {KuzzleRequest, KuzzleRequestInput, KuzzleRequestContext, KuzzleErrors} from "../kuzzle-common-objects/index"
+import {KuzzleRequest, KuzzleRequestInput, KuzzleRequestContext, KuzzleErrors} from "../types-kuzzle-common-objects/index"
 
 declare class KuzzleDsl {
     exists(index: string, collection: string): boolean
