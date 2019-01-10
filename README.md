@@ -1,0 +1,1 @@
+# types-kuzzle-plugin-context
